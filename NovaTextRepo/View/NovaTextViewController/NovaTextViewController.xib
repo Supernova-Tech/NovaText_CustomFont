@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17126"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="NovaTextViewController" customModule="NovaTextRepo" customModuleProvider="target">
+            <connections>
+                <outlet property="backgroundImageView" destination="ZZM-GU-8yL" id="D2M-Rr-U2w"/>
+                <outlet property="collectionView" destination="msg-m3-wmw" id="AWW-Qo-1R9"/>
+                <outlet property="displayLabel" destination="4si-M5-01E" id="ylN-fx-5W9"/>
+                <outlet property="displayView" destination="wbB-sp-cjc" id="ksA-iP-7Ud"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img-background" translatesAutoresizingMaskIntoConstraints="NO" id="ZZM-GU-8yL">
+                    <rect key="frame" x="0.0" y="44" width="414" height="668"/>
+                </imageView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wbB-sp-cjc">
+                    <rect key="frame" x="162" y="347.5" width="90" height="61"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tap To  Edit Text" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4si-M5-01E">
+                            <rect key="frame" x="10" y="10" width="70" height="41"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="4si-M5-01E" firstAttribute="top" secondItem="wbB-sp-cjc" secondAttribute="top" constant="10" id="6zg-fL-ls9"/>
+                        <constraint firstAttribute="bottom" secondItem="4si-M5-01E" secondAttribute="bottom" constant="10" id="M1k-HE-IQv"/>
+                        <constraint firstAttribute="trailing" secondItem="4si-M5-01E" secondAttribute="trailing" constant="10" id="Naj-eh-ISG"/>
+                        <constraint firstItem="4si-M5-01E" firstAttribute="leading" secondItem="wbB-sp-cjc" secondAttribute="leading" constant="10" id="ZO1-Ez-Prs"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                            <integer key="value" value="5"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                            <color key="value" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" alwaysBounceHorizontal="YES" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" bouncesZoom="NO" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="msg-m3-wmw">
+                    <rect key="frame" x="5" y="712" width="409" height="150"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="150" id="Qj2-yw-KzT"/>
+                    </constraints>
+                    <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="SQy-8P-tYG">
+                        <size key="itemSize" width="128" height="128"/>
+                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                        <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    </collectionViewFlowLayout>
+                </collectionView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="wbB-sp-cjc" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="30" id="6sF-li-pVf"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="msg-m3-wmw" secondAttribute="trailing" id="ItS-5q-pM6"/>
+                <constraint firstItem="wbB-sp-cjc" firstAttribute="centerY" secondItem="ZZM-GU-8yL" secondAttribute="centerY" id="Qaq-5y-PhM"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="msg-m3-wmw" secondAttribute="bottom" id="XJs-9P-dnt"/>
+                <constraint firstItem="msg-m3-wmw" firstAttribute="top" secondItem="ZZM-GU-8yL" secondAttribute="bottom" id="cOB-aY-W7r"/>
+                <constraint firstItem="ZZM-GU-8yL" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="gyn-Uh-FXp"/>
+                <constraint firstItem="ZZM-GU-8yL" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="j4h-UO-kDg"/>
+                <constraint firstItem="wbB-sp-cjc" firstAttribute="centerX" secondItem="ZZM-GU-8yL" secondAttribute="centerX" id="n6n-FY-rtu"/>
+                <constraint firstItem="wbB-sp-cjc" firstAttribute="top" relation="greaterThanOrEqual" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="50" id="sQo-1p-vUX"/>
+                <constraint firstItem="msg-m3-wmw" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="5" id="u1n-vh-pdS"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="ZZM-GU-8yL" secondAttribute="trailing" id="vj7-Ib-9nE"/>
+                <constraint firstItem="msg-m3-wmw" firstAttribute="top" secondItem="ZZM-GU-8yL" secondAttribute="bottom" id="zlh-CR-ILy"/>
+            </constraints>
+            <userDefinedRuntimeAttributes>
+                <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                    <integer key="value" value="5"/>
+                </userDefinedRuntimeAttribute>
+                <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                    <color key="value" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </userDefinedRuntimeAttribute>
+            </userDefinedRuntimeAttributes>
+            <point key="canvasLocation" x="97" y="90"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="img-background" width="84" height="150"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

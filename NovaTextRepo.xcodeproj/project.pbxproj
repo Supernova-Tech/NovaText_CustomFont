@@ -1,0 +1,674 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D161EB7C264BB34D005C87EF /* TypeTextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D161EB7A264BB34D005C87EF /* TypeTextViewController.swift */; };
+		D161EB7D264BB34D005C87EF /* TypeTextViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D161EB7B264BB34D005C87EF /* TypeTextViewController.xib */; };
+		D19C6601264A6ACD009F4209 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19C6600264A6ACD009F4209 /* AppDelegate.swift */; };
+		D19C6603264A6ACD009F4209 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19C6602264A6ACD009F4209 /* SceneDelegate.swift */; };
+		D19C660A264A6AD0009F4209 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D19C6609264A6AD0009F4209 /* Assets.xcassets */; };
+		D19C660D264A6AD0009F4209 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D19C660B264A6AD0009F4209 /* LaunchScreen.storyboard */; };
+		D19C6618264A6AD1009F4209 /* NovaTextRepoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19C6617264A6AD1009F4209 /* NovaTextRepoTests.swift */; };
+		D19C6623264A6AD1009F4209 /* NovaTextRepoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19C6622264A6AD1009F4209 /* NovaTextRepoUITests.swift */; };
+		D19C663D264A6B6B009F4209 /* NovaTextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19C663B264A6B6B009F4209 /* NovaTextViewController.swift */; };
+		D19C663E264A6B6B009F4209 /* NovaTextViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D19C663C264A6B6B009F4209 /* NovaTextViewController.xib */; };
+		D19C664D264A72FC009F4209 /* FontsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19C664B264A72FC009F4209 /* FontsCollectionViewCell.swift */; };
+		D19C664E264A72FC009F4209 /* FontsCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D19C664C264A72FC009F4209 /* FontsCollectionViewCell.xib */; };
+		D19C665B264A77D4009F4209 /* LabelExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19C665A264A77D4009F4209 /* LabelExt.swift */; };
+		D19C6662264A8406009F4209 /* UIFontExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19C6661264A8406009F4209 /* UIFontExt.swift */; };
+		D1EC1C26264E119C00D75B5F /* UIImageViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1EC1C25264E119C00D75B5F /* UIImageViewExt.swift */; };
+		D1EC1C2B264E128900D75B5F /* UIColorExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1EC1C2A264E128900D75B5F /* UIColorExt.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D19C6614264A6AD1009F4209 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D19C65F5264A6ACC009F4209 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D19C65FC264A6ACD009F4209;
+			remoteInfo = NovaTextRepo;
+		};
+		D19C661F264A6AD1009F4209 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D19C65F5264A6ACC009F4209 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D19C65FC264A6ACD009F4209;
+			remoteInfo = NovaTextRepo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D161EB7A264BB34D005C87EF /* TypeTextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeTextViewController.swift; sourceTree = "<group>"; };
+		D161EB7B264BB34D005C87EF /* TypeTextViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TypeTextViewController.xib; sourceTree = "<group>"; };
+		D19C65FD264A6ACD009F4209 /* NovaTextRepo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NovaTextRepo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D19C6600264A6ACD009F4209 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D19C6602264A6ACD009F4209 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D19C6609264A6AD0009F4209 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D19C660C264A6AD0009F4209 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D19C660E264A6AD0009F4209 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D19C6613264A6AD1009F4209 /* NovaTextRepoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NovaTextRepoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D19C6617264A6AD1009F4209 /* NovaTextRepoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NovaTextRepoTests.swift; sourceTree = "<group>"; };
+		D19C6619264A6AD1009F4209 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D19C661E264A6AD1009F4209 /* NovaTextRepoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NovaTextRepoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D19C6622264A6AD1009F4209 /* NovaTextRepoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NovaTextRepoUITests.swift; sourceTree = "<group>"; };
+		D19C6624264A6AD1009F4209 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D19C663B264A6B6B009F4209 /* NovaTextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NovaTextViewController.swift; sourceTree = "<group>"; };
+		D19C663C264A6B6B009F4209 /* NovaTextViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NovaTextViewController.xib; sourceTree = "<group>"; };
+		D19C664B264A72FC009F4209 /* FontsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontsCollectionViewCell.swift; sourceTree = "<group>"; };
+		D19C664C264A72FC009F4209 /* FontsCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FontsCollectionViewCell.xib; sourceTree = "<group>"; };
+		D19C665A264A77D4009F4209 /* LabelExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelExt.swift; sourceTree = "<group>"; };
+		D19C6660264A83E3009F4209 /* Zoika.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Zoika.ttf; sourceTree = "<group>"; };
+		D19C6661264A8406009F4209 /* UIFontExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIFontExt.swift; sourceTree = "<group>"; };
+		D1EC1C25264E119C00D75B5F /* UIImageViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageViewExt.swift; sourceTree = "<group>"; };
+		D1EC1C2A264E128900D75B5F /* UIColorExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExt.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D19C65FA264A6ACD009F4209 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D19C6610264A6AD1009F4209 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D19C661B264A6AD1009F4209 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D161EB79264BB326005C87EF /* TypeTextViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D161EB7A264BB34D005C87EF /* TypeTextViewController.swift */,
+				D161EB7B264BB34D005C87EF /* TypeTextViewController.xib */,
+			);
+			path = TypeTextViewController;
+			sourceTree = "<group>";
+		};
+		D19C65F4264A6ACC009F4209 = {
+			isa = PBXGroup;
+			children = (
+				D19C65FF264A6ACD009F4209 /* NovaTextRepo */,
+				D19C6616264A6AD1009F4209 /* NovaTextRepoTests */,
+				D19C6621264A6AD1009F4209 /* NovaTextRepoUITests */,
+				D19C65FE264A6ACD009F4209 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D19C65FE264A6ACD009F4209 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D19C65FD264A6ACD009F4209 /* NovaTextRepo.app */,
+				D19C6613264A6AD1009F4209 /* NovaTextRepoTests.xctest */,
+				D19C661E264A6AD1009F4209 /* NovaTextRepoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D19C65FF264A6ACD009F4209 /* NovaTextRepo */ = {
+			isa = PBXGroup;
+			children = (
+				D19C665F264A83D8009F4209 /* Fonts */,
+				D19C6645264A71C1009F4209 /* Management */,
+				D19C6639264A6B44009F4209 /* View */,
+				D19C6600264A6ACD009F4209 /* AppDelegate.swift */,
+				D19C6602264A6ACD009F4209 /* SceneDelegate.swift */,
+				D19C6609264A6AD0009F4209 /* Assets.xcassets */,
+				D19C660B264A6AD0009F4209 /* LaunchScreen.storyboard */,
+				D19C660E264A6AD0009F4209 /* Info.plist */,
+			);
+			path = NovaTextRepo;
+			sourceTree = "<group>";
+		};
+		D19C6616264A6AD1009F4209 /* NovaTextRepoTests */ = {
+			isa = PBXGroup;
+			children = (
+				D19C6617264A6AD1009F4209 /* NovaTextRepoTests.swift */,
+				D19C6619264A6AD1009F4209 /* Info.plist */,
+			);
+			path = NovaTextRepoTests;
+			sourceTree = "<group>";
+		};
+		D19C6621264A6AD1009F4209 /* NovaTextRepoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D19C6622264A6AD1009F4209 /* NovaTextRepoUITests.swift */,
+				D19C6624264A6AD1009F4209 /* Info.plist */,
+			);
+			path = NovaTextRepoUITests;
+			sourceTree = "<group>";
+		};
+		D19C6639264A6B44009F4209 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D161EB79264BB326005C87EF /* TypeTextViewController */,
+				D19C663A264A6B4B009F4209 /* NovaTextViewController */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D19C663A264A6B4B009F4209 /* NovaTextViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D19C6647264A72D1009F4209 /* Cells */,
+				D19C663B264A6B6B009F4209 /* NovaTextViewController.swift */,
+				D19C663C264A6B6B009F4209 /* NovaTextViewController.xib */,
+			);
+			path = NovaTextViewController;
+			sourceTree = "<group>";
+		};
+		D19C6645264A71C1009F4209 /* Management */ = {
+			isa = PBXGroup;
+			children = (
+				D19C6646264A71CE009F4209 /* Ext */,
+			);
+			path = Management;
+			sourceTree = "<group>";
+		};
+		D19C6646264A71CE009F4209 /* Ext */ = {
+			isa = PBXGroup;
+			children = (
+				D19C665A264A77D4009F4209 /* LabelExt.swift */,
+				D19C6661264A8406009F4209 /* UIFontExt.swift */,
+				D1EC1C25264E119C00D75B5F /* UIImageViewExt.swift */,
+				D1EC1C2A264E128900D75B5F /* UIColorExt.swift */,
+			);
+			path = Ext;
+			sourceTree = "<group>";
+		};
+		D19C6647264A72D1009F4209 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				D19C664B264A72FC009F4209 /* FontsCollectionViewCell.swift */,
+				D19C664C264A72FC009F4209 /* FontsCollectionViewCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		D19C665F264A83D8009F4209 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				D19C6660264A83E3009F4209 /* Zoika.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D19C65FC264A6ACD009F4209 /* NovaTextRepo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D19C6627264A6AD1009F4209 /* Build configuration list for PBXNativeTarget "NovaTextRepo" */;
+			buildPhases = (
+				D19C65F9264A6ACD009F4209 /* Sources */,
+				D19C65FA264A6ACD009F4209 /* Frameworks */,
+				D19C65FB264A6ACD009F4209 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NovaTextRepo;
+			productName = NovaTextRepo;
+			productReference = D19C65FD264A6ACD009F4209 /* NovaTextRepo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D19C6612264A6AD1009F4209 /* NovaTextRepoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D19C662A264A6AD1009F4209 /* Build configuration list for PBXNativeTarget "NovaTextRepoTests" */;
+			buildPhases = (
+				D19C660F264A6AD1009F4209 /* Sources */,
+				D19C6610264A6AD1009F4209 /* Frameworks */,
+				D19C6611264A6AD1009F4209 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D19C6615264A6AD1009F4209 /* PBXTargetDependency */,
+			);
+			name = NovaTextRepoTests;
+			productName = NovaTextRepoTests;
+			productReference = D19C6613264A6AD1009F4209 /* NovaTextRepoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D19C661D264A6AD1009F4209 /* NovaTextRepoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D19C662D264A6AD1009F4209 /* Build configuration list for PBXNativeTarget "NovaTextRepoUITests" */;
+			buildPhases = (
+				D19C661A264A6AD1009F4209 /* Sources */,
+				D19C661B264A6AD1009F4209 /* Frameworks */,
+				D19C661C264A6AD1009F4209 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D19C6620264A6AD1009F4209 /* PBXTargetDependency */,
+			);
+			name = NovaTextRepoUITests;
+			productName = NovaTextRepoUITests;
+			productReference = D19C661E264A6AD1009F4209 /* NovaTextRepoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D19C65F5264A6ACC009F4209 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1210;
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					D19C65FC264A6ACD009F4209 = {
+						CreatedOnToolsVersion = 12.1.1;
+					};
+					D19C6612264A6AD1009F4209 = {
+						CreatedOnToolsVersion = 12.1.1;
+						TestTargetID = D19C65FC264A6ACD009F4209;
+					};
+					D19C661D264A6AD1009F4209 = {
+						CreatedOnToolsVersion = 12.1.1;
+						TestTargetID = D19C65FC264A6ACD009F4209;
+					};
+				};
+			};
+			buildConfigurationList = D19C65F8264A6ACC009F4209 /* Build configuration list for PBXProject "NovaTextRepo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D19C65F4264A6ACC009F4209;
+			productRefGroup = D19C65FE264A6ACD009F4209 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D19C65FC264A6ACD009F4209 /* NovaTextRepo */,
+				D19C6612264A6AD1009F4209 /* NovaTextRepoTests */,
+				D19C661D264A6AD1009F4209 /* NovaTextRepoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D19C65FB264A6ACD009F4209 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D161EB7D264BB34D005C87EF /* TypeTextViewController.xib in Resources */,
+				D19C660D264A6AD0009F4209 /* LaunchScreen.storyboard in Resources */,
+				D19C664E264A72FC009F4209 /* FontsCollectionViewCell.xib in Resources */,
+				D19C660A264A6AD0009F4209 /* Assets.xcassets in Resources */,
+				D19C663E264A6B6B009F4209 /* NovaTextViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D19C6611264A6AD1009F4209 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D19C661C264A6AD1009F4209 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D19C65F9264A6ACD009F4209 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D19C663D264A6B6B009F4209 /* NovaTextViewController.swift in Sources */,
+				D19C665B264A77D4009F4209 /* LabelExt.swift in Sources */,
+				D19C6662264A8406009F4209 /* UIFontExt.swift in Sources */,
+				D19C664D264A72FC009F4209 /* FontsCollectionViewCell.swift in Sources */,
+				D1EC1C2B264E128900D75B5F /* UIColorExt.swift in Sources */,
+				D1EC1C26264E119C00D75B5F /* UIImageViewExt.swift in Sources */,
+				D19C6601264A6ACD009F4209 /* AppDelegate.swift in Sources */,
+				D19C6603264A6ACD009F4209 /* SceneDelegate.swift in Sources */,
+				D161EB7C264BB34D005C87EF /* TypeTextViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D19C660F264A6AD1009F4209 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D19C6618264A6AD1009F4209 /* NovaTextRepoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D19C661A264A6AD1009F4209 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D19C6623264A6AD1009F4209 /* NovaTextRepoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D19C6615264A6AD1009F4209 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D19C65FC264A6ACD009F4209 /* NovaTextRepo */;
+			targetProxy = D19C6614264A6AD1009F4209 /* PBXContainerItemProxy */;
+		};
+		D19C6620264A6AD1009F4209 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D19C65FC264A6ACD009F4209 /* NovaTextRepo */;
+			targetProxy = D19C661F264A6AD1009F4209 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D19C660B264A6AD0009F4209 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D19C660C264A6AD0009F4209 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D19C6625264A6AD1009F4209 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D19C6626264A6AD1009F4209 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D19C6628264A6AD1009F4209 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NovaTextRepo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "supernova-tech.NovaTextRepo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D19C6629264A6AD1009F4209 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NovaTextRepo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "supernova-tech.NovaTextRepo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D19C662B264A6AD1009F4209 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NovaTextRepoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "supernova-tech.NovaTextRepoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NovaTextRepo.app/NovaTextRepo";
+			};
+			name = Debug;
+		};
+		D19C662C264A6AD1009F4209 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NovaTextRepoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "supernova-tech.NovaTextRepoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NovaTextRepo.app/NovaTextRepo";
+			};
+			name = Release;
+		};
+		D19C662E264A6AD1009F4209 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NovaTextRepoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "supernova-tech.NovaTextRepoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NovaTextRepo;
+			};
+			name = Debug;
+		};
+		D19C662F264A6AD1009F4209 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NovaTextRepoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "supernova-tech.NovaTextRepoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NovaTextRepo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D19C65F8264A6ACC009F4209 /* Build configuration list for PBXProject "NovaTextRepo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D19C6625264A6AD1009F4209 /* Debug */,
+				D19C6626264A6AD1009F4209 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D19C6627264A6AD1009F4209 /* Build configuration list for PBXNativeTarget "NovaTextRepo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D19C6628264A6AD1009F4209 /* Debug */,
+				D19C6629264A6AD1009F4209 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D19C662A264A6AD1009F4209 /* Build configuration list for PBXNativeTarget "NovaTextRepoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D19C662B264A6AD1009F4209 /* Debug */,
+				D19C662C264A6AD1009F4209 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D19C662D264A6AD1009F4209 /* Build configuration list for PBXNativeTarget "NovaTextRepoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D19C662E264A6AD1009F4209 /* Debug */,
+				D19C662F264A6AD1009F4209 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D19C65F5264A6ACC009F4209 /* Project object */;
+}
